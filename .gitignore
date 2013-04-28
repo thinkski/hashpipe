@@ -1,0 +1,14 @@
+# Ignore everything...
+*
+
+# ...except: subdirectories
+!*/
+
+# ...and: self
+!.gitignore
+
+# ...and: vhdl source
+!*.vhd
+
+# ...and: readme text
+!/README.md
