@@ -1,11 +1,11 @@
-sha256
-======
+hashpipe
+========
 
-This is a VHDL implementation in RTL of a SHA-256 hasher using systolic pipeline
-architecture.
+Hashpipe is a SHA-256 hardware hashing engine implemented in VHDL. It is designed as
+a systolic array, producing one hash per clock cycle.
 
 Performance
 -----------
-The core has been synthesize and simulated in ISE on a Xilinx Cyclone III 120K
+The core has been synthesized and simulated in ISE on a Xilinx Cyclone III 120K
 FPGA. Two instances fit on this device, with an Fmax of approximately 70 MHz,
 thus producing together 140 MHash/sec.
