@@ -6,6 +6,6 @@ a systolic array, producing one hash per clock cycle.
 
 Performance
 -----------
-The core has been synthesized and simulated in ISE on a Xilinx Cyclone III 120K
+The core has been synthesized and simulated in ISE on an Altera Cyclone III 120K
 FPGA. Two instances fit on this device, with an Fmax of approximately 70 MHz,
 thus producing together 140 MHash/sec.
