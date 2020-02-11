@@ -1,7 +1,7 @@
 # hashpipe
 
-Hashpipe is a SHA-256 hardware hashing engine implemented in VHDL. It is designed as
-a systolic array, producing one hash per clock cycle.
+Hashpipe is a SHA-256 hashing engine implemented in VHDL. It is designed as
+a systolic pipeline, producing one hash per clock cycle.
 
 ## Performance
 
